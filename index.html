@@ -3,31 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Herman Woodcrafting — custom stairs, finish carpentry and woodworking in Southwest Florida.">
+  <meta name="description" content="Herman Woodcrafting — custom stairs, finish carpentry and woodworking in Southwest Florida. Exceeding expectations since 1989.">
   <title>Herman Woodcrafting | Custom Stairs & Finish Carpentry</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="topbar"><div class="topbar-inner"><span>Exceeding expectations since 1989</span><span>Fort Myers, Florida • <a href="tel:+12394332600">(239) 433-2600</a></span></div></div>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="index.html" aria-label="Herman Woodcrafting home">
       <span class="brand-mark">HW</span>
       <span class="brand-copy"><strong>Herman Woodcrafting</strong><span>Custom Carpentry • Fort Myers</span></span>
     </a>
-    <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
-    <nav class="nav" aria-label="Primary navigation">
+    <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav class="nav" id="primary-nav" aria-label="Primary navigation">
       <a class="active" href="index.html">Home</a><a href="stairs.html">Stairs</a><a href="builders.html">Builders</a><a href="remodeling.html">Remodeling</a><a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
 
 <main>
+  <!-- STOCK IMAGE: replace hero background in styles.css with a Herman project photo later. -->
   <section class="hero">
     <div class="hero-inner">
       <p class="eyebrow">Southwest Florida craftsmanship</p>
       <h1>Built with precision. Made to belong.</h1>
       <p>Custom stair systems, finish carpentry and architectural woodwork for homeowners, builders and remodelers who care about the details.</p>
+      <span class="hero-badge">Serving Southwest Florida for more than three decades</span>
       <div class="cta-row"><a class="btn btn-primary" href="contact.html">Discuss a Project</a><a class="btn btn-secondary" href="stairs.html">Explore Our Work</a></div>
+    </div>
+  </section>
+
+  <section class="trust-strip" aria-label="Herman Woodcrafting highlights">
+    <div class="trust-inner">
+      <div class="trust-item">Established 1989</div>
+      <div class="trust-item">Custom stair systems</div>
+      <div class="trust-item">Finish carpentry</div>
+      <div class="trust-item">Fort Myers & Southwest Florida</div>
     </div>
   </section>
 
@@ -35,8 +47,11 @@
     <div class="section-inner">
       <div class="section-head"><div><p class="eyebrow">What we do</p><h2>Craftsmanship from rough opening to final detail.</h2></div><p>Whether the job calls for a statement staircase, dependable trim installation, or a clean remodel finish, the goal is the same: accurate work, durable materials and a result that feels intentional.</p></div>
       <div class="grid-3">
+        <!-- STOCK IMAGE: replace with Herman stair project photo. -->
         <article class="card"><img class="card-img" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=82" alt="Modern interior staircase"><div class="card-body"><h3>Custom Stairs</h3><p>Stair systems, treads, rails, newels and finish details designed to elevate the space.</p><a class="card-link" href="stairs.html">View stair services →</a></div></article>
+        <!-- STOCK IMAGE: replace with Herman builder-project photo. -->
         <article class="card"><img class="card-img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=82" alt="Construction professional working on site"><div class="card-body"><h3>For Builders</h3><p>Professional finish carpentry support with attention to schedules, coordination and punch-list quality.</p><a class="card-link" href="builders.html">Builder services →</a></div></article>
+        <!-- STOCK IMAGE: replace with Herman remodeling project photo. -->
         <article class="card"><img class="card-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=82" alt="Remodeled modern home interior"><div class="card-body"><h3>Remodeling</h3><p>Thoughtful woodwork for renovations, stair updates, trim upgrades and interior transformations.</p><a class="card-link" href="remodeling.html">Remodeling services →</a></div></article>
       </div>
     </div>
@@ -44,16 +59,29 @@
 
   <section class="section" style="background:var(--cream)">
     <div class="section-inner split">
+      <!-- STOCK IMAGE: ideal future replacement is a candid workshop or installation photo. -->
       <img class="split-img" src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1400&q=86" alt="Craftsman working with wood in a workshop">
-      <div><p class="eyebrow">The Herman standard</p><h2>Good carpentry should look simple when it’s finished.</h2><p>Behind a clean line is careful measuring, patient fitting and years of experience. Our work is built around the parts clients notice — and the details they never have to think about.</p><div class="checks"><span>Custom solutions rather than one-size-fits-all work</span><span>Clean, professional installations and finish details</span><span>Coordination with homeowners, builders and remodelers</span></div><a class="btn btn-dark" href="contact.html">Start a Conversation</a></div>
+      <div><p class="eyebrow">The Herman standard</p><h2>Good carpentry should look simple when it’s finished.</h2><p>Behind a clean line is careful measuring, patient fitting and years of experience. The work is built around the parts clients notice — and the details they never have to think about.</p><div class="checks"><span>Custom solutions rather than one-size-fits-all work</span><span>Clean, professional installations and finish details</span><span>Coordination with homeowners, builders and remodelers</span></div><a class="btn btn-dark" href="contact.html">Start a Conversation</a></div>
     </div>
   </section>
 
-  <section class="section stats"><div class="section-inner stat-grid"><div class="stat"><strong>Custom</strong><span>Stairs, trim and architectural woodworking</span></div><div class="stat"><strong>Local</strong><span>Serving Fort Myers and Southwest Florida</span></div><div class="stat"><strong>Detail-led</strong><span>Measured, fitted and finished with care</span></div></div></section>
+  <section class="section">
+    <div class="section-inner">
+      <p class="eyebrow">How a project starts</p>
+      <h2 class="content-heading">Straightforward from the first conversation.</h2>
+      <div class="process-grid">
+        <article class="process-step"><small>01 • Discuss</small><h3>Share the project.</h3><p>Tell us what you’re building, remodeling or trying to solve, along with the location and general timing.</p></article>
+        <article class="process-step"><small>02 • Review</small><h3>Work through the details.</h3><p>Plans, field conditions, materials and finish expectations are reviewed before the work moves forward.</p></article>
+        <article class="process-step"><small>03 • Build</small><h3>Finish it with care.</h3><p>The goal is a precise installation that looks intentional, performs well and belongs in the home.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section stats"><div class="section-inner stat-grid"><div class="stat"><strong>Since 1989</strong><span>Decades of woodworking and finish experience</span></div><div class="stat"><strong>Local</strong><span>Serving Fort Myers and Southwest Florida</span></div><div class="stat"><strong>Detail-led</strong><span>Measured, fitted and finished with care</span></div></div></section>
 </main>
 
 <section class="cta-band"><div class="cta-box"><div><p class="eyebrow">Have a project in mind?</p><h2>Bring us the plan, the problem, or the idea.</h2></div><a class="btn btn-dark" href="contact.html">Contact Herman Woodcrafting</a></div></section>
-<footer><div class="footer-inner"><span>© <span data-year></span> Herman Woodcrafting, Inc.</span><span>Fort Myers, Florida • (239) 433-2600</span></div></footer>
+<footer><div class="footer-inner"><div class="footer-brand"><strong>Herman Woodcrafting, Inc.</strong><span>Custom stairs, finish carpentry and architectural woodwork in Southwest Florida.</span></div><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="stairs.html">Stairs</a><a href="builders.html">Builders</a><a href="remodeling.html">Remodeling</a><a href="contact.html">Contact</a></nav><div class="footer-bottom"><span>© <span data-year></span> Herman Woodcrafting, Inc.</span><span>Fort Myers, Florida • <a href="tel:+12394332600">(239) 433-2600</a></span></div></div></footer>
 <script src="script.js"></script>
 </body>
 </html>

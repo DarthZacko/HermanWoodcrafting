@@ -1,26 +1,25 @@
-# Herman Woodcrafting Demo
+# Herman Woodcrafting Website Redesign Demo
 
-Temporary static website concept for Herman Woodcrafting, Inc.
+Static HTML/CSS/JS redesign proposal for Herman Woodcrafting.
 
-## Files
-- `index.html` — Home
-- `stairs.html` — Stairs
-- `builders.html` — Builders
-- `remodeling.html` — Remodeling
-- `contact.html` — Contact
-- `styles.css` — shared responsive styles
-- `script.js` — mobile menu, current year, demo form notice
+## Pages
+- `index.html`
+- `stairs.html`
+- `builders.html`
+- `remodeling.html`
+- `contact.html`
 
 ## GitHub Pages
-1. Create a new GitHub repository.
-2. Upload all files in this folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then save.
+Upload all files directly to the repository root. With GitHub Pages set to deploy from `main` / `(root)`, the homepage will be available at the repository's GitHub Pages URL.
 
-## Before a real launch
-- Replace stock image URLs with licensed/local project photography.
-- Confirm business name, phone, address, service area and service descriptions.
-- Connect the contact form to Formspree, Netlify Forms or another form handler.
-- Add a real logo if available.
-- Add title/description/OG images for final SEO/social sharing.
+## Replacing stock images
+The temporary image locations are marked in the HTML with comments beginning `STOCK IMAGE`. The homepage hero background is in `styles.css` under `.hero`.
+
+When client photos are available, add an `images` folder and use relative URLs such as:
+
+`images/herman-staircase-01.jpg`
+
+This keeps the finished site independent of third-party stock-image URLs.
+
+## Contact form
+The contact form is currently a visual demo only. `script.js` prevents submission and displays a note. Connect it to a form service or backend before launch.
